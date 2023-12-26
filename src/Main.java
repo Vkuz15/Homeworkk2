@@ -43,5 +43,13 @@ public class Main {
         System.out.println("Разница в весе боксеров " + differenceWeight);
         var differenceWeight2 = secondBoxerWeight % firstBoxerWeight;
         System.out.println("Разница в весе боксеров другим способом " + differenceWeight2);
+
+        var totalHours = 640;
+        var workingHours = 8;
+        var workers = totalHours / workingHours;
+        System.out.println("Всего работников в компании - " + workers + " человек");
+        workers = workers + 94;
+        var totalHours2 = workers * workingHours;
+        System.out.println("Если в компании работает " + workers + " человек, то всего " + totalHours2 + " часов работы может быть поделено между сотрудниками");
     }
 }
